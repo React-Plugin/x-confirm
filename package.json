@@ -23,7 +23,7 @@
     "doc-dev": "npm-run-all docs:clean docs:prepare docs:build:watch",
     "docs:clean": "rimraf _book",
     "docs:prepare": "gitbook install",
-    "docs:build": "gitbook build -g react-plugin/x-dialog",
+    "docs:build": "gitbook build -g react-plugin/x-confirm",
     "docs:build:watch": "gitbook serve",
     "docs:publish": "cd _book && git init && git checkout -b gh-pages && git add --all && git commit -am \"update book\" && git push git@github.com:react-plugin/x-confirm gh-pages --force"
   },
@@ -50,7 +50,7 @@
     "gitbook-cli": "^2.3.0",
     "rimraf": "^2.6.1",
     "css-loader": "^0.23.1",
-    "node-sass": "^3.5.3",
+    "node-sass": "^4.5.3",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.0",
