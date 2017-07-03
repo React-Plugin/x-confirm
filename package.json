@@ -1,6 +1,6 @@
 {
   "name": "x-confirm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React x-confirm 插件",
   "main": "./lib/index.js",
   "repository": {
