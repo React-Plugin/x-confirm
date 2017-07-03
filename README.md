@@ -12,13 +12,13 @@ confirm是一个react.js提示确认的插件，它扩展至[x-dialog](https://r
 使用 [npm](https://www.npmjs.com/package/x-alert) 安装, 运行
 
 ```bash
-$ npm install x-alert --save
+$ npm install x-confirm --save
 ```
 ## 调用方式
 ```js
-<Alert isShow={true}>我只是一个x-alert的提示</Alert>
+<Confrim isShow={true}>我只是一个x-alert的提示</Confrim>
 ```
-由于`x-alert`是从`x-dialog`扩展出来的一个提示插件，所以大多数`x-dialog`的属性方法都是可以通用的,这里有[x-dialog](https://github.com/react-plugin/x-alert)的详细说明.
+由于`x-confirm`是从`x-dialog`扩展出来的一个提示插件，所以大多数`x-dialog`的属性方法都是可以通用的,这里有[x-dialog](https://github.com/react-plugin/x-confirm)的详细说明.
 ## 属性方法
 ### `isShow` :bool类型
     控制弹窗的显示隐藏的.
