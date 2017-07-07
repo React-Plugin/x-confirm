@@ -1,6 +1,8 @@
 # x-confirm
 react confirm component
 
+![x-confirm](https://react-plugin.github.io/x-confirm/demo.jpg)
+
 confirm是一个react.js提示确认的插件，它扩展至[x-dialog](https://react-plugin.github.io/x-dialog/),与[x-dialog](https://react-plugin.github.io/x-dialog/)和[x-alert](https://react-plugin.github.io/x-alert/)不同的是，它的调用更简单，样式更固定 ，并默认提供了'确定'和'取消'两种操作。
 
 演示地址： [x-confirm各种案例演示](https://react-plugin.github.io/x-confirm/)
