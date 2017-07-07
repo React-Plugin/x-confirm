@@ -1,6 +1,6 @@
 {
   "name": "x-confirm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React x-confirm 插件",
   "main": "./lib/index.js",
   "repository": {
@@ -57,11 +57,11 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "x-alert": "0.0.0"
+    "x-dialog": "0.0.2"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0",
-    "react-dom": "^0.14.0 || ^15.0.0"
+    "react": "^0.14.0 || ^15.6.1",
+    "react-dom": "^0.14.0 || ^15.6.1"
   },
   "tags": [
     "react",
